@@ -1,0 +1,2 @@
+# dothanhnguyen.com
+Website cá nhân của Đỗ Thành Nguyên, nơi giới thiệu các dự án đã thực hiện, dịch vụ cung cấp, kinh nghiệm triển khai và những bài viết chia sẻ về công nghệ, tự động hóa và ứng dụng AI.  Các giải pháp thực tế như n8n, Make.com, API, AI Automation, tích hợp hệ thống và tối ưu quy trình làm việc. Tại đây, bạn có thể xem các dự án tiêu biểu, tìm hiểu dịch vụ phù hợp, tham khảo các bài viết hướng dẫn và liên hệ để trao đổi về nhu cầu triển khai.
