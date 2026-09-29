@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đỗ Thành Nguyên — Full-Stack Developer & Automation Engineer</title>
+    <meta name="description"
+        content="Portfolio của Đỗ Thành Nguyên — Lập trình viên full-stack & Founder tại Hồ Chí Minh. Dự án web, quy trình n8n automation, trick & tip và bài viết công nghệ.">
+    <meta name="keywords"
+        content="Đỗ Thành Nguyên, Full-Stack Developer, n8n Automation, Portfolio, Web Developer Ho Chi Minh, Go, React, Tailwind, Software Architecture">
+    <meta name="author" content="Đỗ Thành Nguyên">
+    <link rel="canonical" href="https://dothanhnguyen.com">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dothanhnguyen.com">
+    <meta property="og:title" content="Đỗ Thành Nguyên — Full-Stack Developer & Automation Engineer">
+    <meta property="og:description"
+        content="Tôi xây dựng các sản phẩm web nhanh, gọn và bền vững — từ kiến trúc backend đến những chi tiết động trên giao diện.">
+    <meta property="og:image" content="https://dothanhnguyen.com/og-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://dothanhnguyen.com">
+    <meta property="twitter:title" content="Đỗ Thành Nguyên — Full-Stack Developer & Automation Engineer">
+    <meta property="twitter:description"
+        content="Tôi xây dựng các sản phẩm web nhanh, gọn và bền vững — từ kiến trúc backend đến những chi tiết động trên giao diện.">
+
+    <!-- Favicon SVG -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Đỗ Thành Nguyên",
+      "jobTitle": "Full-Stack Developer & Automation Engineer",
+      "url": "https://dothanhnguyen.com",
+      "sameAs": [
+        "https://github.com/dothanhnguyen",
+        "https://linkedin.com/in/dothanhnguyen"
+      ],
+      "knowsAbout": ["Full-Stack Web Development", "n8n Automation", "Go", "React", "Node.js", "System Architecture"],
+      "description": "Lập trình viên full-stack tại Hồ Chí Minh chuyên xây dựng sản phẩm web tốc độ cao và tự động hóa quy trình."
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Background Kinetic Glow Mesh -->
+    <div class="glow-bg">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="#" class="brand-logo">
+                <span class="brand-avatar">TN</span>
+                <span class="brand-name">Đỗ Thành Nguyên</span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#du-an" class="nav-link active">Dự án</a>
+                <a href="#trick-tip" class="nav-link">Mẹo kỹ thuật</a>
+                <a href="#bai-viet" class="nav-link">Bài viết</a>
+                <a href="#lien-he" class="nav-link">Liên hệ</a>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#lien-he" class="btn btn-glass-sm">
+                    <span class="status-dot"></span> Liên hệ ngay
+                </a>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-drawer" id="mobileDrawer">
+        <nav class="mobile-nav-links">
+            <a href="#du-an" class="mobile-nav-link">01. Dự án</a>
+            <a href="#trick-tip" class="mobile-nav-link">02. Mẹo kỹ thuật</a>
+            <a href="#bai-viet" class="mobile-nav-link">03. Bài viết</a>
+            <a href="#lien-he" class="mobile-nav-link">04. Liên hệ</a>
+        </nav>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-badge">
+                    <span class="pulse-indicator"></span>
+                    <span class="badge-text">Đang nhận dự án & tư vấn Automation</span>
+                </div>
+
+                <h1 class="hero-title">
+                    Đỗ Thành Nguyên
+                </h1>
+
+                <p class="hero-subtitle">
+                    Tôi xây dựng các sản phẩm web <span class="text-gradient">nhanh, gọn và bền vững</span> — từ kiến
+                    trúc backend đến những chi tiết động kinetic trên giao diện.
+                </p>
+
+                <div class="hero-ctas">
+                    <a href="#du-an" class="btn btn-primary">
+                        <span>Xem dự án</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                    <a href="#bai-viet" class="btn btn-glass">
+                        <span>Đọc bài viết</span>
+                    </a>
+                </div>
+
+                <!-- Metrics Counter Bar -->
+                <div class="hero-stats-grid">
+                    <div class="stat-card glass-panel">
+                        <div class="stat-value text-gradient" data-target="40">40+</div>
+                        <div class="stat-label">Dự án hoàn thành</div>
+                    </div>
+                    <div class="stat-card glass-panel">
+                        <div class="stat-value text-gradient" data-target="6">6 năm</div>
+                        <div class="stat-label">Kinh nghiệm thực chiến</div>
+                    </div>
+                    <div class="stat-card glass-panel">
+                        <div class="stat-value text-gradient" data-target="12000">12k+</div>
+                        <div class="stat-label">Người dùng hệ thống</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 01: Projects -->
+        <section id="du-an" class="section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-tag">01 — Dự án</div>
+                    <h2 class="section-title">Những sản phẩm tôi đã xây dựng</h2>
+                    <p class="section-desc">Từ nền tảng SaaS, Landing Page tối ưu chuyển đổi cho đến hệ thống tự động
+                        hóa n8n quy mô lớn.</p>
+                </div>
+
+                <!-- Project Filters -->
+                <div class="filter-bar">
+                    <button class="filter-btn active" data-filter="all">Tất cả (5)</button>
+                    <button class="filter-btn" data-filter="saas">SaaS & Community</button>
+                    <button class="filter-btn" data-filter="landing">Landing Page</button>
+                    <button class="filter-btn" data-filter="automation">Automation & AI</button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Project Item 1 -->
+                    <article class="project-card glass-panel" data-category="saas automation" data-id="n8nworkflows">
+                        <div class="card-top">
+                            <span class="category-badge">Founder & Lead Dev</span>
+                            <span class="project-icon">⚡</span>
+                        </div>
+                        <h3 class="card-title">
+                            <a href="https://n8nworkflows.vn" target="_blank" rel="noopener noreferrer" class="card-title-link">n8nworkflows.vn</a>
+                        </h3>
+                        <p class="card-summary">Thư viện lưu trữ & chia sẻ workflows n8n bằng tiếng Việt — dễ tra cứu,
+                            tải về và áp dụng ngay cho doanh nghiệp.</p>
+
+                        <div class="card-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Vai trò:</span>
+                                <span class="detail-val">Sáng lập & Thiết kế — Tự phát triển toàn bộ trang web từ A đến Z</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Kết quả:</span>
+                                <span class="detail-val">Tạo ra kho mẫu tự động hóa bằng tiếng Việt giúp mọi người tải về dùng ngay mà không cần biết lập trình.</span>
+                            </div>
+                        </div>
+
+                        <div class="tech-tags">
+                            <span class="tech-tag">n8n</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Vue/React</span>
+                            <span class="tech-tag">Tailwind</span>
+                        </div>
+
+                        <div class="card-actions-group">
+                            <button class="card-btn-action" onclick="openModal('n8nworkflows')">
+                                <span>Chi tiết</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                </svg>
+                            </button>
+                            <a href="https://n8nworkflows.vn" target="_blank" rel="noopener noreferrer" class="card-btn-link">
+                                <span>Truy cập</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                    <polyline points="15 3 21 3 21 9"/>
+                                    <line x1="10" y1="14" x2="21" y2="3"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project Item 2 -->
+                    <article class="project-card glass-panel" data-category="landing" data-id="dungcustore">
+                        <div class="card-top">
+                            <span class="category-badge">E-Commerce & CRO</span>
+                            <span class="project-icon">🛒</span>
+                        </div>
+                        <h3 class="card-title">
+                            <a href="https://dungcu.store" target="_blank" rel="noopener noreferrer" class="card-title-link">dungcu.store</a>
+                        </h3>
+                        <p class="card-summary">Landing page bán hàng với nội dung thu hút và luồng mua hàng được tối ưu
+                            hóa nhằm nâng cao tỷ lệ chuyển đổi chốt đơn.</p>
+
+                        <div class="card-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Vai trò:</span>
+                                <span class="detail-val">Thiết kế & Tối ưu trang bán hàng — Giao diện đẹp mắt, dễ mua hàng</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Kết quả:</span>
+                                <span class="detail-val">Trang bán hàng tải cực nhanh, mua hàng chỉ trong 2 bước giúp tăng tỷ lệ chốt đơn rõ rệt.</span>
+                            </div>
+                        </div>
+
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML5/CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">CRO Strategy</span>
+                            <span class="tech-tag">Performance</span>
+                        </div>
+
+                        <div class="card-actions-group">
+                            <button class="card-btn-action" onclick="openModal('dungcustore')">
+                                <span>Chi tiết</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                </svg>
+                            </button>
+                            <a href="https://dungcu.store" target="_blank" rel="noopener noreferrer" class="card-btn-link">
+                                <span>Truy cập</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                    <polyline points="15 3 21 3 21 9"/>
+                                    <line x1="10" y1="14" x2="21" y2="3"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project Item 3 -->
+                    <article class="project-card glass-panel" data-category="saas" data-id="seedinghub">
+                        <div class="card-top">
+                            <span class="category-badge">Recruitment Tech</span>
+                            <span class="project-icon">🌱</span>
+                        </div>
+                        <h3 class="card-title">
+                            <a href="https://seedinghub.xyz" target="_blank" rel="noopener noreferrer" class="card-title-link">seedinghub.xyz</a>
+                        </h3>
+                        <p class="card-summary">Chuyên trang tuyển dụng tích hợp reviews — nơi chia sẻ trải nghiệm ứng
+                            tuyển & môi trường làm việc thực tế.</p>
+
+                        <div class="card-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Vai trò:</span>
+                                <span class="detail-val">Sáng lập & Quản trị — Xây dựng nền tảng đánh giá thực tế</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Kết quả:</span>
+                                <span class="detail-val">Giúp người tìm việc có nơi tham khảo review môi trường làm việc chân thực trước khi nộp đơn.</span>
+                            </div>
+                        </div>
+
+                        <div class="tech-tags">
+                            <span class="tech-tag">Full-Stack</span>
+                            <span class="tech-tag">REST API</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">SEO Optimized</span>
+                        </div>
+
+                        <div class="card-actions-group">
+                            <button class="card-btn-action" onclick="openModal('seedinghub')">
+                                <span>Chi tiết</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                </svg>
+                            </button>
+                            <a href="https://seedinghub.xyz" target="_blank" rel="noopener noreferrer" class="card-btn-link">
+                                <span>Truy cập</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                    <polyline points="15 3 21 3 21 9"/>
+                                    <line x1="10" y1="14" x2="21" y2="3"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project Item 4 -->
+                    <article class="project-card glass-panel" data-category="automation" data-id="facebookpages">
+                        <div class="card-top">
+                            <span class="category-badge">Social Automation</span>
+                            <span class="project-icon">🤖</span>
+                        </div>
+                        <h3 class="card-title">
+                            <a href="https://www.facebook.com/d0thanhnguyen" target="_blank" rel="noopener noreferrer" class="card-title-link">Hệ thống 20 Fanpages Facebook</a>
+                        </h3>
+                        <p class="card-summary">Hệ thống 20 page Facebook chạy affiliate tự động hóa hoàn toàn luồng
+                            biên tập, lên lịch và đăng nội dung đa kênh.</p>
+
+                        <div class="card-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Vai trò:</span>
+                                <span class="detail-val">Cấu hình tự động hóa — Thiết lập kịch bản tự đăng bài tự động</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Kết quả:</span>
+                                <span class="detail-val">20 fanpage tự đăng bài đều đặn 24/7 mà không cần người ngồi canh đăng thủ công.</span>
+                            </div>
+                        </div>
+
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python Scripting</span>
+                            <span class="tech-tag">Graph API</span>
+                            <span class="tech-tag">n8n</span>
+                            <span class="tech-tag">Cron Workers</span>
+                        </div>
+
+                        <div class="card-actions-group">
+                            <button class="card-btn-action" onclick="openModal('facebookpages')">
+                                <span>Chi tiết</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                </svg>
+                            </button>
+                            <a href="https://www.facebook.com/d0thanhnguyen" target="_blank" rel="noopener noreferrer" class="card-btn-link">
+                                <span>Truy cập</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                    <polyline points="15 3 21 3 21 9"/>
+                                    <line x1="10" y1="14" x2="21" y2="3"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project Item 5 -->
+                    <article class="project-card glass-panel" data-category="automation" data-id="n8nservices">
+                        <div class="card-top">
+                            <span class="category-badge">Client Service</span>
+                            <span class="project-icon">⚙️</span>
+                        </div>
+                        <h3 class="card-title">
+                            <a href="https://www.facebook.com/d0thanhnguyen" target="_blank" rel="noopener noreferrer" class="card-title-link">n8n Automation theo yêu cầu</a>
+                        </h3>
+                        <p class="card-summary">Dịch vụ tư vấn & triển khai quy trình tự động hóa n8n chuyên sâu cho
+                            doanh nghiệp và chủ shop bán hàng online.</p>
+
+                        <div class="card-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Vai trò:</span>
+                                <span class="detail-val">Tư vấn & Cài đặt — Lắng nghe nhu cầu và xây dựng quy trình tự động</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Kết quả:</span>
+                                <span class="detail-val">Giúp chủ shop và doanh nghiệp tiết kiệm 70% thời gian làm việc tay chân mỗi ngày.</span>
+                            </div>
+                        </div>
+
+                        <div class="tech-tags">
+                            <span class="tech-tag">n8n Custom Nodes</span>
+                            <span class="tech-tag">Webhook</span>
+                            <span class="tech-tag">OpenAI API</span>
+                            <span class="tech-tag">CRM Integration</span>
+                        </div>
+
+                        <div class="card-actions-group">
+                            <button class="card-btn-action" onclick="openModal('n8nservices')">
+                                <span>Chi tiết</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                </svg>
+                            </button>
+                            <a href="https://www.facebook.com/d0thanhnguyen" target="_blank" rel="noopener noreferrer" class="card-btn-link">
+                                <span>Tư vấn</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                    <polyline points="15 3 21 3 21 9"/>
+                                    <line x1="10" y1="14" x2="21" y2="3"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 02: Tricks & Tips -->
+        <section id="trick-tip" class="section-padding bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-tag">02 — Mẹo kỹ thuật</div>
+                    <h2 class="section-title">Mẹo nhanh về Tối ưu & Kiến trúc</h2>
+                    <p class="section-desc">Những kinh nghiệm đúc kết từ quá trình xử lý bài toán thực tế trong sản
+                        xuất.</p>
+                </div>
+
+                <div class="tips-grid">
+                    <!-- Tip 1 -->
+                    <div class="tip-card glass-panel">
+                        <div class="tip-number">01</div>
+                        <h3 class="tip-title">Tối ưu Bundle Size dưới 100KB cho ứng dụng React lớn</h3>
+                        <p class="tip-desc">Tách nhỏ code với dynamic import `React.lazy`, loại bỏ lodash để dùng native
+                            JS methods, và cấu hình Rollup manualChunks hợp lý giúp giảm hơn 60% dung lượng tải ban đầu.
+                        </p>
+                        <div class="tip-footer">
+                            <span class="tip-tag">Frontend Optimization</span>
+                            <button class="btn-copy-code" onclick="copyTipCode('tip1', this)">Copy Snippet</button>
+                        </div>
+                    </div>
+
+                    <!-- Tip 2 -->
+                    <div class="tip-card glass-panel">
+                        <div class="tip-number">02</div>
+                        <h3 class="tip-title">Mô hình Caching 3 tầng giúp API phản hồi dưới 50ms</h3>
+                        <p class="tip-desc">Kết hợp L1 (In-Memory RAM Cache) + L2 (Redis Distributed Cache) + L3 (HTTP
+                            Browser Cache-Control). Giảm 90% tải truy vấn xuống database SQL chính.</p>
+                        <div class="tip-footer">
+                            <span class="tip-tag">Backend & Performance</span>
+                            <button class="btn-copy-code" onclick="copyTipCode('tip2', this)">Copy Architecture</button>
+                        </div>
+                    </div>
+
+                    <!-- Tip 3 -->
+                    <div class="tip-card glass-panel">
+                        <div class="tip-number">03</div>
+                        <h3 class="tip-title">Multi-stage Container gọn nhẹ cho Deployment Production</h3>
+                        <p class="tip-desc">Sử dụng Docker multi-stage build với Alpine Linux image làm runner. Loại bỏ
+                            toàn bộ devDependencies và build tools, đưa image size từ 850MB xuống chỉ còn 25MB.</p>
+                        <div class="tip-footer">
+                            <span class="tip-tag">DevOps & Docker</span>
+                            <button class="btn-copy-code" onclick="copyTipCode('tip3', this)">Copy Dockerfile</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 03: Articles / Blog -->
+        <section id="bai-viet" class="section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-tag">03 — Bài viết</div>
+                    <h2 class="section-title">Góc nhìn & Bài viết công nghệ</h2>
+                    <p class="section-desc">Chia sẻ chuyên sâu về lập trình Go, thiết kế hệ thống và trải nghiệm công
+                        nghệ mới.</p>
+                </div>
+
+                <div class="articles-grid">
+                    <!-- Article 1 -->
+                    <article class="article-card glass-panel" onclick="openModal('article-go')">
+                        <div class="article-meta">
+                            <span class="article-date">12 Th3, 2026</span>
+                            <span class="dot-separator">•</span>
+                            <span class="article-read-time">6 phút đọc</span>
+                        </div>
+                        <h3 class="article-title">Kiến trúc Event-Driven với Go và NATS JetStream</h3>
+                        <p class="article-snippet">Tìm hiểu cách thiết kế hệ thống xử lý hàng triệu sự kiện bất đồng bộ
+                            mỗi giây bằng Go routine và NATS Message Broker mà không bị mất dữ liệu...</p>
+                        <div class="article-link">
+                            <span>Đọc bài viết</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </div>
+                    </article>
+
+                    <!-- Article 2 -->
+                    <article class="article-card glass-panel" onclick="openModal('article-tailwind')">
+                        <div class="article-meta">
+                            <span class="article-date">28 Th2, 2026</span>
+                            <span class="dot-separator">•</span>
+                            <span class="article-read-time">4 phút đọc</span>
+                        </div>
+                        <h3 class="article-title">Tailwind CSS v4: Những thay đổi quan trọng nhà phát triển cần biết
+                        </h3>
+                        <p class="article-snippet">Đánh giá chi tiết engine Oxide mới bằng Rust, loại bỏ file
+                            `tailwind.config.js` truyền thống và cách khai báo CSS-first đơn giản nhưng vô cùng mạnh
+                            mẽ...</p>
+                        <div class="article-link">
+                            <span>Đọc bài viết</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </div>
+                    </article>
+
+                    <!-- Article 3 -->
+                    <article class="article-card glass-panel" onclick="openModal('article-resilience')">
+                        <div class="article-meta">
+                            <span class="article-date">05 Th2, 2026</span>
+                            <span class="dot-separator">•</span>
+                            <span class="article-read-time">8 phút đọc</span>
+                        </div>
+                        <h3 class="article-title">Thiết kế hệ thống chống lỗi (Fault-Tolerant Systems)</h3>
+                        <p class="article-snippet">Các mẫu thiết kế Circuit Breaker, Rate Limiting, Backoff Retry và
+                            Graceful Degradation nhằm đảm bảo ứng dụng luôn sống sót trước các sự cố quá tải...</p>
+                        <div class="article-link">
+                            <span>Đọc bài viết</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 04: Contact & Footer -->
+        <section id="lien-he" class="section-padding bg-alt">
+            <div class="container">
+                <div class="contact-box glass-panel text-center">
+                    <div class="contact-badge">Hợp tác & Kết nối</div>
+                    <h2 class="contact-title">Bạn đang tìm kiếm một Lập trình viên hoặc giải pháp Automation?</h2>
+                    <p class="contact-desc">Hãy trao đổi với tôi về ý tưởng dự án, quy trình cần tự động hóa hoặc đơn
+                        giản là một cuộc trò chuyện về công nghệ.</p>
+
+                    <div class="contact-actions">
+                        <button class="btn btn-primary btn-copy-email" id="copyEmailBtn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+                            </svg>
+                            <span id="emailText">contact@dothanhnguyen.com</span>
+                        </button>
+
+                        <a href="mailto:contact@dothanhnguyen.com" class="btn btn-glass">
+                            <span>Gửi Email trực tiếp</span>
+                        </a>
+                    </div>
+
+                    <div class="social-links-bar">
+                        <a href="https://github.com/nathando-ai" target="_blank" rel="noopener noreferrer"
+                            class="social-link">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                            </svg>
+                            GitHub
+                        </a>
+                        <a href="https://www.facebook.com/d0thanhnguyen" target="_blank" rel="noopener noreferrer"
+                            class="social-link">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                            Facebook
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+                <footer class="site-footer">
+                    <p>© 2026 Đỗ Thành Nguyên. Thiết kế Kinetic Glass & Phát triển bởi tôi.</p>
+                    <p class="footer-sub">dothanhnguyen.com — Hồ Chí Minh, Việt Nam</p>
+                </footer>
+            </div>
+        </section>
+    </main>
+
+    <!-- Glass Interactive Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-container glass-panel">
+            <button class="modal-close-btn" onclick="closeModal()">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6l12 12" />
+                </svg>
+            </button>
+            <div class="modal-content" id="modalContent">
+                <!-- Content loaded dynamically via app.js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast-notification" id="toast">
+        <span class="toast-icon">✨</span>
+        <span class="toast-msg" id="toastMsg">Đã sao chép địa chỉ Email!</span>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="app.js"></script>
+</body>
+
+</html>
