@@ -18,6 +18,5 @@ Chào mừng bạn đến với trang tài liệu kỹ thuật của **dothanhng
 
 - [Trang chủ](/)
 - [Dự án & Sản phẩm](/#du-an)
-- [Mẹo kỹ thuật](/#trick-tip)
 - [Bài viết công nghệ](/blog)
 - [Về Đỗ Thành Nguyên](/about)

@@ -63,7 +63,8 @@ export default function Hero() {
         {/* Subtitle */}
         <motion.p custom={2} initial="hidden" animate="visible" variants={variants} className="text-base max-lg:px-4 md:text-lg">
           <Translate id="homepage.hero.text">
-            Tôi là n8n Automation Expert & Full-Stack Developer — chuyên thiết kế landing page tối ưu chuyển đổi và tự động hóa quy trình doanh nghiệp với n8n, Make.com.
+            n8n Automation Expert chuyên tự động hóa quy trình doanh nghiệp với n8n, Make.com.  
+            Thiết kế landing page tối ưu chuyển đổi.
           </Translate>
         </motion.p>
 
@@ -77,12 +78,6 @@ export default function Hero() {
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
-          </Link>
-          <Link
-            to="/#trick-tip"
-            className="inline-flex items-center gap-2 rounded-xl border border-zinc-200 bg-white/70 px-5 py-2.5 text-sm font-semibold text-zinc-800 backdrop-blur-md transition-all hover:bg-white hover:text-blue-600 hover:no-underline dark:border-zinc-700 dark:bg-zinc-800/70 dark:text-zinc-200 dark:hover:bg-zinc-800"
-          >
-            <span>Mẹo kỹ thuật</span>
           </Link>
           <Link
             to="/blog"

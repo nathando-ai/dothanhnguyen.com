@@ -26,7 +26,6 @@ const linkGroups: Array<{ title: string, links: FooterLink[] }> = [
     title: 'Khám phá',
     links: [
       { label: 'Dự án & Sản phẩm', to: '/#du-an' },
-      { label: 'Mẹo kỹ thuật', to: '/#trick-tip' },
       { label: 'Bài viết / Blog', to: '/blog' },
       { label: 'Lưu trữ bài viết', to: '/blog/archive' },
     ],
